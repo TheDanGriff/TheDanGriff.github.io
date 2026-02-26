@@ -1,0 +1,143 @@
+{
+  "segments_count": 5,
+  "race_distance_m_covered": 965.8938221501793,
+  "fatigue_resistance_score": 60.32366666923041,
+  "postural_integrity_score": 54.75575411381614,
+  "rhythm_control_score": 71.88960052815791,
+  "cadence_steps_per_min": 103.04482904776373,
+  "hip_drop_pct_pelvis_width": 19.495846976736722,
+  "trunk_lean_deg_mean": -1.3378538289891497,
+  "dynamic_symmetry_index": 0.08390967652411399,
+  "asymmetry_score": 61.832398770779335,
+  "asymmetry_index": 38.167601229220686,
+  "arm_leg_phase_lock": 0.9844729885970929,
+  "tdi_total_weighted": 0.9026072861764559,
+  "delta_cadence_last_minus_first": -4.339984773508064,
+  "delta_trunk_lean_last_minus_first": 0.36626968877258737,
+  "delta_hip_drop_last_minus_first": -1.6347336608710412,
+  "delta_tdi_last_minus_first": -0.35137014214920026,
+  "speed_correlations": {
+    "cadence_steps_per_min": 0.2810781041600545,
+    "asymmetry_index": -0.9039336232741676,
+    "hip_drop_pct_pelvis_width": 0.3586085964943943,
+    "trunk_lean_deg_mean": 0.1654339231496381,
+    "arm_leg_phase_lock": 0.0011693251384916016,
+    "tdi_total": 0.689130981236109
+  },
+  "tdi_time_correlation": -0.9971087496036463,
+  "evolution_metrics": [
+    {
+      "label": "Cadence (spm)",
+      "start": 97.30702702702698,
+      "end": 92.96704225351891,
+      "delta": -4.339984773508064,
+      "better_direction": "higher_or_stable"
+    },
+    {
+      "label": "Asymmetry Index (higher=worse)",
+      "start": 34.49250464864622,
+      "end": 44.52197327155763,
+      "delta": 10.02946862291141,
+      "better_direction": "lower"
+    },
+    {
+      "label": "Hip Drop % Pelvis",
+      "start": 6.683686520596772,
+      "end": 5.0489528597257305,
+      "delta": -1.6347336608710412,
+      "better_direction": "lower"
+    },
+    {
+      "label": "Relative Lumbar Lean (deg)",
+      "start": -2.5494991207936772,
+      "end": -2.18322943202109,
+      "delta": 0.36626968877258737,
+      "better_direction": "closer_to_early"
+    },
+    {
+      "label": "Arm-Leg Phase Lock",
+      "start": 0.9641515066547306,
+      "end": 0.9772089808227389,
+      "delta": 0.013057474168008287,
+      "better_direction": "higher"
+    }
+  ],
+  "headline_metrics": {
+    "rhythm_stability_index": 121.79514295469784,
+    "rhythm_smoothness": 0.34183616360438523,
+    "stride_time_drift_pct": 20.676341365996475,
+    "upper_lower_decoupling": 0.2685200507312295,
+    "overstriding_index": 0.3618787446619849,
+    "hip_drop_pct_pelvis_width": 19.495846976736722,
+    "asymmetry_index": 38.167601229220686
+  },
+  "volatility_metrics": {
+    "hip_drop_sd": 1.4363151633473552,
+    "trunk_lean_sd": 12.012912751786713,
+    "step_time_sd": 0.9803129132935253
+  },
+  "top_limiters": [
+    {
+      "name": "Trunk-pelvis coupling control",
+      "z_severity": 1.8948766413801559,
+      "delta": -0.5115333717395417
+    },
+    {
+      "name": "Rhythm stability (stride timing)",
+      "z_severity": 0.8757999662484617,
+      "delta": 32.8185328185327
+    },
+    {
+      "name": "Upper-lower decoupling compensation",
+      "z_severity": 0.5787858319045178,
+      "delta": -0.17038788633430735
+    }
+  ],
+  "insights": [
+    "Cadence trend: 97.31 -> 92.97 spm (down).",
+    "Overstriding trend: 0.083 -> 0.249 (up).",
+    "Lateral head movement trend: 3.78 -> 5.47 px SD (up).",
+    "Hip Drop % Pelvis trend: 6.68% -> 5.05% (down).",
+    "Asymmetry Index trend: 34.49 -> 44.52 (up).",
+    "Asymmetry index vs speed correlation: -0.90.",
+    "Technique Decay Index vs speed correlation: 0.69.",
+    "Technique Decay Index vs race time correlation: -1.00.",
+    "Technique Decay Index trend: 1.124 -> 0.772 (decreasing through race).",
+    "Cadence trends downward late race, indicating rhythm fatigue.",
+    "Costly compensation appears in 2 segment(s); focus drills there.",
+    "Cadence-speed correlation is 0.28 (split-based pace linkage).",
+    "Asymmetry index vs speed correlation is -0.90: more asymmetry is linked to lower speed."
+  ],
+  "insight_cards": [
+    {
+      "name": "Asymmetry Index",
+      "value": 38.167601229220686,
+      "why": "Higher asymmetry means one side is doing more work, increasing energy cost as fatigue rises.",
+      "how_to_fix": "Use single-leg strength + mirrored rhythm drills; keep left-right contact timing even."
+    },
+    {
+      "name": "Hip Drop % Pelvis",
+      "value": 19.495846976736722,
+      "why": "Higher hip drop reflects pelvic control loss and lateral energy leak.",
+      "how_to_fix": "Use glute-med stability work and stance-leg pelvic level cues."
+    },
+    {
+      "name": "Stride Time Drift %",
+      "value": 20.676341365996475,
+      "why": "Large drift means rhythm reorganization is becoming costly.",
+      "how_to_fix": "Use metronome race-pace reps and short-contact rhythm intervals."
+    },
+    {
+      "name": "Upper-Lower Decoupling",
+      "value": 0.2685200507312295,
+      "why": "Higher decoupling means trunk and legs are less synchronized under load.",
+      "how_to_fix": "Use trunk-pelvis coordination drills and arm-drive timing cues."
+    },
+    {
+      "name": "Rhythm Stability Index",
+      "value": 121.79514295469784,
+      "why": "Higher variability means less consistent step timing.",
+      "how_to_fix": "Target smooth repeatable stride pattern before chasing higher cadence."
+    }
+  ]
+}

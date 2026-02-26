@@ -1,0 +1,37 @@
+[
+  {
+    "start_frame": 89,
+    "end_frame": 219,
+    "start_sec": 2.966370592149035,
+    "end_sec": 7.299271457085828,
+    "clip_path": "outputs\\img_8876_segments_pose_yolo_curated\\segment_01\\tracked_target.mp4"
+  },
+  {
+    "start_frame": 1256,
+    "end_frame": 1431,
+    "start_sec": 41.86248835662009,
+    "end_sec": 47.69523952095808,
+    "clip_path": "outputs\\img_8876_segments_pose_yolo_curated\\segment_02\\tracked_target.mp4"
+  },
+  {
+    "start_frame": 2173,
+    "end_frame": 2712,
+    "start_sec": 72.42640385894877,
+    "end_sec": 90.39097804391217,
+    "clip_path": "outputs\\img_8876_segments_pose_yolo_curated\\segment_03\\tracked_target.mp4"
+  },
+  {
+    "start_frame": 5001,
+    "end_frame": 5336,
+    "start_sec": 166.6833632734531,
+    "end_sec": 177.84891550232868,
+    "clip_path": "outputs\\img_8876_segments_pose_yolo_curated\\segment_04\\tracked_target.mp4"
+  },
+  {
+    "start_frame": 6032,
+    "end_frame": 6512,
+    "start_sec": 201.0466001330672,
+    "end_sec": 217.04500332667996,
+    "clip_path": "outputs\\img_8876_segments_pose_yolo_curated\\segment_05\\tracked_target.mp4"
+  }
+]
